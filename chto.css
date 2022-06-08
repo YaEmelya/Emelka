@@ -1,0 +1,49 @@
+/*Прижатие футера*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.menu a li {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration-line: none;
+
+}
+
+.menu a:hover {
+    color: darkcyan;
+    font-size: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.bottom {
+    flex: 0 0 auto;
+}
+
+
+a {
+    color: cadetblue;
+}
